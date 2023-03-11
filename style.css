@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+h1 {
+  padding: 30px;
+  color: red;
+}
+input {
+  height: 30px;
+  width: 400px;
+}
+.add {
+  height: 30px;
+  width: 80px;
+  background-color: lime;
+}
+.add:hover {
+  background-color: green;
+}
+.add:active {
+  background-color: lime;
+}
+.header {
+  margin: 0px auto;
+  width: 80%;
+  text-align: center;
+  height: 170px;
+  background-color: beige;
+}
+ul {
+  margin: 0px auto;
+  width: 80%;
+  text-align: center;
+  height: 170px;
+  background-color: beige;
+}
+li {
+}
