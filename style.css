@@ -11,6 +11,9 @@ input {
   height: 30px;
   width: 400px;
 }
+#selector {
+  height: 30px;
+}
 .add {
   height: 30px;
   width: 80px;
@@ -31,19 +34,28 @@ input {
 }
 ul {
   margin: 0px auto;
-  width: 80%;
+  width: 73%;
   text-align: center;
-  background-color: gray;
   height: 100%;
+}
+p {
+  display: inline-block;
 }
 li {
-  padding: 20px 20px;
+  padding: 20px 0px;
   font-size: 20px;
+  list-style-type: none;
+  background-color: grey;
+  margin-top: 20px;
+  width: 100%;
 }
 .obrisi {
-  color: blue;
-  height: 100%;
-  opacity: 100%;
-  padding: 5px;
-  margin: 0 10px;
+  height: 2vh;
+  width: 2vh;
+  background-color: red;
+  float: right;
+  margin-right: 30px;
+}
+.linija {
+  text-decoration: line-through;
 }

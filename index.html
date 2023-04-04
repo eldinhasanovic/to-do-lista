@@ -11,12 +11,17 @@
     <header class="header">
       <h1>TO DO lista</h1>
       <input type="text" id="input" />
-      <button class="add" onclick="novicilj()">Dodaj</button>
+      <button class="add" onclick="dodaj()">Dodaj</button>
+      <select name="tasks" id="selector">
+        <option value="all">Sve</option>
+        <option value="done">Zavrseni</option>
+        <option value="notdone">Nezavrseni</option>
+      </select>
     </header>
     <ul>
-      <li>Ustani pre 11</li>
-      <li>Idi na spavanje pre 12</li>
-      <li>Napravi todo listu</li>
+      <li><p ondblclick="linija()">Ustani pre 11</p></li>
+      <li><p ondblclick="linija()">zavrsi bridtv</p></li>
+      <li><p ondblclick="linija()">zavrsi todo listu</p></li>
     </ul>
     <script src="./app.js"></script>
   </body>
