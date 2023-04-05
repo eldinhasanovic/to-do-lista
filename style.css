@@ -2,35 +2,37 @@
   padding: 0;
   margin: 0;
   box-sizing: content-box;
+  background-color: beige;
 }
 h1 {
   padding: 30px;
-  color: red;
+  color: rgb(215, 140, 0);
 }
 input {
   height: 30px;
   width: 400px;
 }
-#selector {
+.options {
   height: 30px;
 }
 .add {
   height: 30px;
   width: 80px;
-  background-color: lime;
+  background-color: rgb(255, 191, 0);
 }
 .add:hover {
-  background-color: green;
+  background-color: rgb(243, 203, 95);
 }
 .add:active {
-  background-color: lime;
+  background-color: rgba(243, 204, 95, 0.381);
 }
+
 .header {
   margin: 0px auto;
   width: 80%;
   text-align: center;
   height: 170px;
-  background-color: beige;
+  /* background-color: beige; */
 }
 ul {
   margin: 0px auto;
@@ -45,17 +47,28 @@ li {
   padding: 20px 0px;
   font-size: 20px;
   list-style-type: none;
-  background-color: grey;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  border: 1px solid rgb(118, 118, 118);
+  margin-bottom: 20px;
+  background-color: oldlace;
   width: 100%;
 }
 .obrisi {
   height: 2vh;
   width: 2vh;
-  background-color: red;
+  border: 1px rgba(128, 128, 128, 0.26) sold;
+  background-color: rgba(255, 0, 0, 0.397);
   float: right;
   margin-right: 30px;
 }
+.obrisi:active {
+  transform: scale(1.1);
+}
 .linija {
   text-decoration: line-through;
+}
+.todoContainer {
+  /* background-color: beige; */
+  width: 80%;
+  margin: 0px auto;
 }
