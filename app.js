@@ -76,3 +76,5 @@ ugasi = document.getElementsByClassName("obrisi");
 //     }
 //   }
 // }
+
+// Ne mogu nikako da napravim da radi filter
